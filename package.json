@@ -1,6 +1,6 @@
 {
-    "name": "ryzumi-esm",
-    "version": "10.0.0",
+    "name": "speaki-esm",
+    "version": "10.1.0",
     "description": "BOT Whatsapp",
     "main": "index.js",
     "type": "module",
@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/ShirokamiRyzenRyzumiMD-ESM",
+    "homepage": "https://github.com/Nandaxy/SpeakiMD-ESM",
     "author": {
-        "name": "ShirokamiRyzen"
+        "name": "Nandaxy"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ShirokamiRyzenRyzumiMD-ESM.git"
+        "url": "git+https://github.com/Nandaxy/SpeakiMD-ESM.git"
     },
     "bugs": {
-        "url": "https://github.com/ShirokamiRyzenRyzumiMD-ESM/issues"
+        "url": "https://github.com/Nandaxy/SpeakiMD-ESM/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

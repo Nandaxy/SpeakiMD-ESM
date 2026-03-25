@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text }) => {
-    if (!text) return conn.reply(m.chat, 'Use example: \n.qrcode Shirokami Ryzen', m)
+    if (!text) return conn.reply(m.chat, 'Use example: \n.qrcode https://gokil.biz.id/', m)
     conn.sendFile(m.chat, `https://quickchart.io/qr?size=300&margin=2&text=${encodeURIComponent(text)}`, 'qrcode.png', '¯\\_(ツ)_/¯', m)
 }
 

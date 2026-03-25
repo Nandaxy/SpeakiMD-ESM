@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const handler = async (m, { conn, args }) => {
     if (args.length < 2 && !(m.quoted && m.quoted.text)) {
-        throw `Gunakan format: .fakestory <username>|<caption>\n\nContoh:\n.fakestory Ryzumi|Hello World ✨✨✨`
+        throw `Gunakan format: .fakestory <username>|<caption>\n\nContoh:\n.fakestory Nandaxy|Hello World ✨✨✨`
     }
 
     let [username, caption] = args.join(" ").split("|")

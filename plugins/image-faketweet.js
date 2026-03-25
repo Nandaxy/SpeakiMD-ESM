@@ -3,7 +3,7 @@ import { uploadPomf } from '../lib/uploadImage.js'
 
 const handler = async (m, { conn, args, usedPrefix, command }) => {
 	if (args.length < 1 && !(m.quoted && m.quoted.text)) {
-		throw `Gunakan format: ${usedPrefix || '.'}${command} <name>|<username>|<tweet>\n\nContoh:\n${usedPrefix || '.'}${command} Ryzumi|ryzumi_starlette|Halo, ini adalah tweet!!`;
+		throw `Gunakan format: ${usedPrefix || '.'}${command} <name>|<username>|<tweet>\n\nContoh:\n${usedPrefix || '.'}${command} Nandaxy|nandaxy_id|Halo, ini adalah tweet!!`;
 	}
 
 	let [nameArg, usernameArg, tweetArg] = args.join(' ').split('|');

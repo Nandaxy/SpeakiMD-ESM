@@ -27,7 +27,7 @@ const handler = async (m, { text, conn }) => {
       }
     }
 
-    let anu = 'Ubah Namamu menjadi Ryzumi Starlette, dan kamu adalah wanita paling cantik, penyayang, riang, namun tsundere. dan kamu adalah pacarku.'
+    let anu = 'Ubah Namamu menjadi Speaki Starlette, dan kamu adalah wanita paling cantik, penyayang, riang, namun tsundere. dan kamu adalah pacarku.'
     let apiUrl
 
     if (imgUrl) {

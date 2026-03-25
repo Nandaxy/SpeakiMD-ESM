@@ -1,5 +1,4 @@
 let handler = async (m) => {
-  let gambar = 'https://api.ryzumi.net/images/qris.png'
   //let saweria = global.psaweria
   let qris = global.qris
   let numberowner = global.nomorown
@@ -19,7 +18,7 @@ Terimakasih :D
 Contact Owner:
 wa.me/${numberowner} (Owner)
 `
-  let qris_img = Buffer.from(await (await fetch(gambar)).arrayBuffer())
+  let qris_img = Buffer.from(await (await fetch(qris)).arrayBuffer())
   await conn.sendFile(m.chat, qris_img, '', anu, m)
 }
 

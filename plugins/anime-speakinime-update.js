@@ -46,7 +46,7 @@ global.animeUpdateInterval = setInterval(async () => {
         if (updates.length > 0) {
             const time = moment().tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss')
             // Find chats that enabled the feature
-            const chats = Object.entries(global.db.data.chats || {}).filter(([jid, chat]) => chat.ryzuminimeUpdate)
+            const chats = Object.entries(global.db.data.chats || {}).filter(([jid, chat]) => chat.speakinimeUpdate)
 
             if (chats.length === 0) return
 
@@ -87,18 +87,18 @@ global.animeUpdateInterval = setInterval(async () => {
         }
 
     } catch (e) {
-        console.error('Error in Anime Ryzuminime Update:', e)
+        console.error('Error in Anime Speakinime Update:', e)
     }
 }, 5 * 60 * 1000) // 5 minutes
 
 // Handler provides status info
 let handler = async (m) => {
-    m.reply(`*Anime Update System*\n\nStatus: Running\nInterval: 5 minutes\n\nUse *.enable ryzuminime-update* to subscribe.`)
+    m.reply(`*Anime Update System*\n\nStatus: Running\nInterval: 5 minutes\n\nUse *.enable speakinime-update* to subscribe.`)
 }
 
-handler.help = ['checkryzumi']
+handler.help = ['checkspeaki']
 handler.tags = ['anime']
-handler.command = /^(checkryzumi)$/i
+handler.command = /^(checkspeaki)$/i
 handler.owner = true
 
 export default handler

@@ -1,6 +1,6 @@
 import fs from 'fs'
 import moment from 'moment-timezone'
-const thumbPath = (fs.readFileSync("./ryzumi.webp"))
+const thumbPath = (fs.readFileSync("./cuayo.webp"))
 
 let handler = m => m
 handler.all = async function (m) {

@@ -1,5 +1,5 @@
 /*
-Author : Shirokami Ryzen 
+Author : Nandaxy 
 WA : +6285174269046
 Base : Elaina-MultiDevice
 Release : 22 Nov 2022
@@ -30,39 +30,39 @@ const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
 /*============= MAIN INFO =============*/
-global.pairing = '6285864034767'
-global.owner = [['6285174269046', 'ShirokamiRyzen', true]]
+global.pairing = '62895373137660'
+global.owner = [['62999999999', 'Nandaxy', true]]
 global.mods = []
 global.prems = []
-global.nomorbot = '6285864034767'
-global.nomorown = '6285174269046'
+global.nomorbot = '62895373137660'
+global.nomorown = '62999999999'
 
 /*============= WATERMARK =============*/
 global.readMore = readMore
-global.author = 'Shirokami Ryzen'
-global.namebot = 'Ryzumi-MD ESM'
-global.wm = '© Ryzumi-MD By Shirokami Ryzen'
+global.author = 'Nandaxy'
+global.namebot = 'SPEAKI-MD ESM'
+global.wm = '© Speaki-MD By Nandaxy'
 global.watermark = wm
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.stickpack = `Sticker Dibuat dengan ${namebot}\ngithub.com/ShirokamiRyzen\n\nRyzumi-MD ESM\n+${nomorbot}`
-global.stickauth = `© Ryzumi-MD By Shirokami Ryzen`
+global.stickpack = `Sticker Dibuat dengan ${namebot}\ngithub.com/Nandaxy\n\n+${nomorbot}`
+global.stickauth = `© Speaki-MD By Nandaxy`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 
 /*============== SOCIAL ==============*/
-global.sig = 'https://www.instagram.com/fatih_frdaus'
-global.sgh = 'https://github.com/ShirokamiRyzen'
-global.sgc = 'https://whatsapp.com/channel/0029Vb2qO9Q5vKAGd2t7ap1F'
-global.sgw = 'https://ryzumi.net'
+global.sig = 'https://www.instagram.com/nandaaa_79'
+global.sgh = 'https://github.com/Nandaxy'
+global.sgc = 'https://whatsapp.com/channel/0029Vb717dfIN9ixDdSu4X02'
+global.sgw = 'https://monitor.gokil.biz.id/'
 global.sdc = '-'
-global.sfb = 'https://www.facebook.com/Nao.Tomori.UwU'
-global.snh = 'https://www.instagram.com/fatih_frdaus'
+global.sfb = 'https://www.facebook.com/'
+global.snh = 'https://www.instagram.com/nandaaa_79'
 
 /*============== PAYMENT ==============*/
-global.pdana = '085174269046'
-global.qris = 'https://api.ryzumi.net/assets/images/qris.png'
-global.psaweria = 'https://saweria.co/shirokamiryzen'
+global.pdana = '628996213356'
+global.qris = 'https://i.pinimg.com/736x/02/a3/d9/02a3d93f93ece9c326247f4c7fefd237.jpg'
+global.psaweria = 'https://saweria.co'
 
 /*============= RESPON =============*/
 global.wait = 'Please Wait...'

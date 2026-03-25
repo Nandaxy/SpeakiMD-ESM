@@ -17,7 +17,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
             const vgd = data.vgd
 
             // Format the data as a list of key-value pairs
-            const formattedData = `Author: ${author} (github.com/ShirokamiRyzen)\n\nLink Asli ${args[0]}\n=====SHORT LINK=====\nBitly: ${bitly}\nIsgd: ${isgd}\nOuo: ${ouo}\nTinyURL: ${tinyurl}\nVgd: ${vgd}`;
+            const formattedData = `Author: ${author} (github.com/Nandaxy)\n\nLink Asli ${args[0]}\n=====SHORT LINK=====\nBitly: ${bitly}\nIsgd: ${isgd}\nOuo: ${ouo}\nTinyURL: ${tinyurl}\nVgd: ${vgd}`;
 
             // Send the formatted data to m.reply
             m.reply(formattedData)

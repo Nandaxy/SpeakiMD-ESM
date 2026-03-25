@@ -1,6 +1,7 @@
 // Script Ori By BochilGaming
 // Ditulis Ulang Oleh ImYanXiao
 // Disesuaikan Oleh ShirokamiRyzen
+// Disesuilan lagi Oleh Nandaxy
 
 import { promises } from 'fs'
 import { join } from 'path'
@@ -66,6 +67,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command }) => {
     let m2 = global.dmenub
     let m3 = global.dmenuf
     let m4 = global.dmenub2
+
+    let thumb = global.thumb
 
     let cc = global.cmenut
     let c1 = global.cmenuh
@@ -215,7 +218,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command }) => {
           mediaType: 1,
           previewType: 0,
           renderLargerThumbnail: true,
-          thumbnailUrl: 'https://telegra.ph/file/14a7745f434cd21e900d6.jpg',
+          thumbnailUrl: thumb,
           sourceUrl: sgc,
         }
       }

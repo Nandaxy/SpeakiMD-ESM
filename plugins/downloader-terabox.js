@@ -24,7 +24,7 @@ let handler = async (m, { conn, args }) => {
             document: { url: downloadUrl },
             fileName: filename,
             mimetype: 'application/octet-stream',
-            caption: `*Filename:* ${filename}\n*Size:* ${size}\n\n_Powered by Ryzumi API_`
+            caption: `*Filename:* ${filename}\n*Size:* ${size}`
         }, { quoted: m });
 
     } catch (error) {
